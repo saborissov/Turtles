@@ -13,6 +13,8 @@
 		7A4ADAB724AF8EDF00DDE24D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4ADAB524AF8EDF00DDE24D /* Main.storyboard */; };
 		7A4ADAB924AF8EE000DDE24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4ADAB824AF8EE000DDE24D /* Assets.xcassets */; };
 		7A4ADABC24AF8EE000DDE24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4ADABA24AF8EE000DDE24D /* LaunchScreen.storyboard */; };
+		7ACAF25624BCF97200007B2F /* AlerContollerWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACAF25524BCF97200007B2F /* AlerContollerWithImage.swift */; };
+		7ACAF25824BCF98400007B2F /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACAF25724BCF98400007B2F /* UIImage+Resize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7A4ADAB824AF8EE000DDE24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A4ADABB24AF8EE000DDE24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A4ADABD24AF8EE000DDE24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACAF25524BCF97200007B2F /* AlerContollerWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlerContollerWithImage.swift; path = ../../../AlertWithImage/AlertWithImage/Extentions/AlerContollerWithImage.swift; sourceTree = "<group>"; };
+		7ACAF25724BCF98400007B2F /* UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Resize.swift"; path = "../../../../../Downloads/AlertWithImage-master/Asset Setup/UIImage+Resize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		7A4ADAAE24AF8EDF00DDE24D /* Turtles */ = {
 			isa = PBXGroup;
 			children = (
+				7ACAF25424BCF94C00007B2F /* Extention */,
 				7A4ADAAF24AF8EDF00DDE24D /* AppDelegate.swift */,
 				7A4ADAB124AF8EDF00DDE24D /* SceneDelegate.swift */,
 				7A4ADAB324AF8EDF00DDE24D /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				7A4ADABD24AF8EE000DDE24D /* Info.plist */,
 			);
 			path = Turtles;
+			sourceTree = "<group>";
+		};
+		7ACAF25424BCF94C00007B2F /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				7ACAF25524BCF97200007B2F /* AlerContollerWithImage.swift */,
+				7ACAF25724BCF98400007B2F /* UIImage+Resize.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACAF25624BCF97200007B2F /* AlerContollerWithImage.swift in Sources */,
 				7A4ADAB424AF8EDF00DDE24D /* ViewController.swift in Sources */,
 				7A4ADAB024AF8EDF00DDE24D /* AppDelegate.swift in Sources */,
+				7ACAF25824BCF98400007B2F /* UIImage+Resize.swift in Sources */,
 				7A4ADAB224AF8EDF00DDE24D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
